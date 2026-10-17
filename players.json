@@ -1,0 +1,393 @@
+[
+  {
+    "number": "1",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "GK"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员01",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "GK",
+    "id": "demo-01",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "2",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CB"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员02",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CB",
+    "id": "demo-02",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "3",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "LB"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员03",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "LB",
+    "id": "demo-03",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "4",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "RB"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员04",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "RB",
+    "id": "demo-04",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "5",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CDM"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员05",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CDM",
+    "id": "demo-05",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "6",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CM"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员06",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CM",
+    "id": "demo-06",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "7",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CAM"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员07",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CAM",
+    "id": "demo-07",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "8",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "LM"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员08",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "LM",
+    "id": "demo-08",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "9",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "RM"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员09",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "RM",
+    "id": "demo-09",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "10",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "LW"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员10",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "LW",
+    "id": "demo-10",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "11",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "RW"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员11",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "RW",
+    "id": "demo-11",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "12",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "ST"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员12",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "ST",
+    "id": "demo-12",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "13",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "GK"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员13",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "GK",
+    "id": "demo-13",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "14",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CB"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员14",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CB",
+    "id": "demo-14",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "15",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "LB"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员15",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "LB",
+    "id": "demo-15",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "16",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "RB"
+    ],
+    "foot": "left",
+    "available": true,
+    "injury": null,
+    "name": "示例球员16",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "RB",
+    "id": "demo-16",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  },
+  {
+    "number": "17",
+    "notes": [
+      "虚构演示资料，请替换为已获授权的球员信息"
+    ],
+    "positions": [
+      "CDM"
+    ],
+    "foot": "right",
+    "available": true,
+    "injury": null,
+    "name": "示例球员17",
+    "weaknesses": [
+      "演示：回防"
+    ],
+    "fatigue": "normal",
+    "preferredPosition": "CDM",
+    "id": "demo-17",
+    "selectionPriority": "normal",
+    "strengths": [
+      "演示：传接球"
+    ]
+  }
+]

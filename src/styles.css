@@ -1,0 +1,434 @@
+@import "tailwindcss";
+.ai-panel {
+  border-top: 4px solid #a0bf53;
+}
+.advice ul {
+  list-style: disc;
+  padding-left: 24px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.action-preview {
+  padding: 16px;
+  background: #edf3dc;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.error {
+  padding: 14px;
+  background: #fff0e9;
+  border: 1px solid #e3b39a;
+  border-radius: 8px;
+  color: #8b301d;
+}
+.advice p {
+  white-space: pre-line;
+}
+textarea {
+  min-height: 90px;
+}
+.panel {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  margin: 20px 0;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkbox input {
+  width: 20px;
+  min-height: 20px;
+}
+.scoreboard {
+  text-align: center;
+  background: #173b2d;
+  color: #f4f7ec;
+  margin: 20px 0;
+}
+.scoreboard .eyebrow {
+  color: #c3d6b8;
+}
+.scoreline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.scoreline strong {
+  font-size: 56px;
+  color: #d9ef88;
+}
+.scoreline > span {
+  max-width: 30%;
+  overflow-wrap: anywhere;
+}
+.clock {
+  font-size: 38px;
+  font-variant-numeric: tabular-nums;
+}
+.clock span {
+  opacity: 0.5;
+}
+.quick-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.quick-grid button {
+  min-height: 58px;
+}
+.small-pitch {
+  max-width: 420px;
+  margin: auto;
+}
+.event {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0e6dc;
+}
+.event > strong {
+  color: #577c33;
+  min-width: 38px;
+}
+.event > div:nth-child(2) {
+  flex: 1;
+}
+.event p {
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+}
+.event-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.event-actions button {
+  font-size: 12px;
+  padding: 8px;
+}
+.void {
+  opacity: 0.5;
+}
+.empty {
+  text-align: center;
+  padding: 50px 20px;
+  color: #67735e;
+}
+@media (max-width: 700px) {
+  .event {
+    flex-wrap: wrap;
+  }
+  .event-actions {
+    margin-left: auto;
+  }
+  .scoreline {
+    gap: 15px;
+  }
+  .scoreline strong {
+    font-size: 44px;
+  }
+}
+:root {
+  font-family: Inter, "Microsoft YaHei", sans-serif;
+  color: #142d26;
+  background: #f3f5ef;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  background: #112b25;
+  color: #f0f5e8;
+  padding: 22px max(5vw, 20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-size: 26px;
+  font-weight: 900;
+}
+.brand span {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.brand b {
+  color: #d5ee88;
+}
+main {
+  max-width: 1180px;
+  margin: auto;
+  padding: 32px 24px 80px;
+}
+.eyebrow {
+  letter-spacing: 3px;
+  font-size: 11px;
+  color: #65765c;
+  margin-bottom: 12px;
+}
+h1 {
+  font-size: clamp(26px, 4vw, 40px);
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+h2 {
+  font-size: 19px;
+  font-weight: 750;
+  margin: 0 0 16px;
+}
+h3 {
+  font-weight: 700;
+  margin: 24px 0 12px;
+}
+p {
+  line-height: 1.8;
+  font-size: 14px;
+}
+.muted {
+  color: #637269;
+}
+.badge {
+  background: #e5eddf;
+  color: #385342;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+nav {
+  display: flex;
+  border-bottom: 1px solid #ced7c9;
+  gap: 8px;
+  margin-top: 28px;
+  padding-bottom: 12px;
+}
+button,
+select,
+input,
+textarea {
+  font: inherit;
+  font-size: 14px;
+  border: 1px solid #ccd6c6;
+  border-radius: 8px;
+  padding: 11px 13px;
+  min-height: 44px;
+  background: white;
+  color: #173b2c;
+}
+button {
+  cursor: pointer;
+  font-weight: 650;
+}
+button:hover {
+  background: #e6eddd;
+}
+.active:hover,
+.primary:hover {
+  background: #23533e;
+  color: #fff;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.active,
+.primary {
+  background: #173e2e;
+  color: white;
+  border-color: #173e2e;
+}
+.danger {
+  color: #a93725;
+}
+.toolbar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.toolbar input {
+  flex: 1;
+  min-width: 160px;
+}
+.workspace {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 24px;
+}
+section,
+article {
+  background: #fff;
+  border: 1px solid #dce3d6;
+  border-radius: 16px;
+  padding: 24px;
+}
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.section-head h2 {
+  margin: 0;
+}
+.pitch {
+  width: 100%;
+  max-height: 640px;
+  display: block;
+}
+.slot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 9px 0;
+}
+.slot > span {
+  font-size: 12px;
+  width: 35px;
+  font-weight: 700;
+}
+.slot select {
+  flex: 1;
+  min-width: 0;
+}
+.warn {
+  color: #9b5012;
+  font-size: 10px;
+}
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.chips span {
+  background: #eef2e8;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+.toast {
+  font-size: 12px;
+  color: #356444;
+  min-height: 42px;
+  padding: 12px 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 16px;
+}
+.cards p {
+  margin: 12px 0;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: #10251acc;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+.modal {
+  background: #f7f9f3;
+  border-radius: 16px;
+  padding: 24px;
+  max-height: 90dvh;
+  overflow: auto;
+  width: min(560px, 100%);
+}
+label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+label input,
+label select,
+label textarea {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+}
+footer {
+  padding: 24px 5vw;
+  background: #112b25;
+  color: #bfd0b9;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+small {
+  font-weight: 400;
+}
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #88b73d;
+  outline-offset: 2px;
+}
+@media (max-width: 700px) {
+  header {
+    padding: 18px 16px;
+  }
+  header > .badge {
+    display: none;
+  }
+  main {
+    padding: 24px 14px 50px;
+  }
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+  section,
+  article {
+    padding: 16px;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    background: #f3f5ef;
+    z-index: 5;
+    overflow: auto;
+  }
+  nav button {
+    white-space: nowrap;
+    flex: 1;
+    padding: 10px;
+  }
+  .slot .warn {
+    max-width: 45px;
+  }
+  footer span {
+    display: none;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.full-width {
+  grid-column: 1/-1;
+}
+.offline {
+  background: #f4e5b9;
+  padding: 12px;
+  border-radius: 8px;
+}
+.toast {
+  position: sticky;
+  bottom: 0;
+  z-index: 6;
+  background: #f3f5ef;
+}
